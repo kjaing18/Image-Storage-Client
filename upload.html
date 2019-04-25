@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Upload</title>
+</head>
+<body>
+	<form method="POST" action="#" id="uploadImage">
+		<label>
+			Caption:
+			<input name="caption" type="text" required>
+		</label>
+		<label>
+			Image:
+			<input name="image" type="file" required>
+		</label>
+		<input type="submit" value="Submit">
+	</form>
+
+	<script src="minio-browser.js"></script>
+	<script src="upload.js"></script>
+</body>
+</html>
