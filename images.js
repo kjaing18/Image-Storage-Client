@@ -2,7 +2,7 @@ function getImage () {
   fetch('http://localhost:3000/images')
     .then(res => res.json())
     .then(images => {
-      var list = document.getElementById('testing');
+      var list = document.getElementById('image-list');
 
       for (let im of images) {
         var newList = document.createElement('li');
